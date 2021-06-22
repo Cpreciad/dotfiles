@@ -1,6 +1,6 @@
 # Managing dotfiles with a git bare repository
-adapted from [here](https://news.ycombinator.com/item?id=11070797)
-credit to +deckard
+## adapted from [here](https://news.ycombinator.com/item?id=11070797)
+#### credit to +deckard
 
 1. create the repo
 > git init --bare $HOME/.dotfiles
