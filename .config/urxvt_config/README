@@ -1,0 +1,9 @@
+Lemme Tell you sum
+
+
+This folder contains a directory with different terminal templates for urxvt. 
+
+to change format, do this in the current folder:
+				
+				> cat terminal_scheme{0-...} > ~/.Xresources
+				> xrdb ~/.Xresources
