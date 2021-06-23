@@ -14,12 +14,12 @@
 > 
 > dotgit commit -m "add i3wm config"
 > 
-> dotgit remote add origin git@github.com:<your-username>/dotfiles.git
+> dotgit remote add origin https://github.com/[your-username]/dotfiles.git
 >
 > dotgit push -u origin master
 
 4. install on a new system 
-> git clone --separate-git-dir=$HOME/.dotfiles git@github.com:<your-username>/dotfiles.git dotfiles-tmp
+> git clone --separate-git-dir=$HOME/.dotfiles https://github.com/[your-username]/dotfiles.git dotfiles-tmp
 >  
 > rsync --recursive --verbose --exclude '.git' dotfiles-tmp/ $HOME/
 >  
