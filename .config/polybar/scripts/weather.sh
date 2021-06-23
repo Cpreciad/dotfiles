@@ -5,7 +5,7 @@ ONECALL="https://api.openweathermap.org/data/2.5/onecall"
 # source OW_KEY, LAT, LON, and UNITS
 #. "$(dirname "$0")/weather.config"
 # TOTO actually source these variables
-OW_KEY="cdba1f0dd231b686e5a0bbbf3a12f482"
+OW_KEY="##########"
 LAT="33"
 LON="-117"
 UNITS="imperial"
