@@ -1,0 +1,5 @@
+(bar) polybar
+(font) Font Awesome 5
+(virtual terminal)urxvt
+(WM) i3
+(display) Xorg
