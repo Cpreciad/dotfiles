@@ -202,8 +202,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # i3-gaps stuffs
 new_window 1pixel
-gaps inner 5
-gaps outer 8
+gaps inner 9
+gaps outer 3
 
 focus_follows_mouse no
 
