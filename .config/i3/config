@@ -183,9 +183,9 @@ bindsym $mod+r mode "resize"
 # Wall Paper
 exec --no-startup-id feh --bg-scale ~/.config/wallpapers/plastic2.jpg
 
-# Compositor (Controlling opacity)
+# Compositor (opacity controlled by urxvt in .Xresources)
 #exec urxvt -depth 32 -bg [90]#141c21
-exec --no-startup-id xcompmgr
+exec --no-startup-id xcompmgr 
 
 # boarder controlls
 default_border pixel 1
@@ -199,3 +199,14 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #bar {
 #        status_command i3status
 #}
+
+# i3-gaps stuffs
+new_window 1pixel
+gaps inner 9
+gaps outer 3
+
+focus_follows_mouse no
+
+
+client.focused #900C3F #AB832D #900C3F #900C3F 
+client.unfocused #5A0727 #5A0727 #5A0727 #5A0727 

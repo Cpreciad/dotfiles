@@ -54,5 +54,5 @@ URxvt.scrollBar_:right: false
 URxvt.urgentOnBell: true
 URxvt.depth: 32
 URxvt.iso14755: false
-URxvt*background: [95]#141c21
+URxvt*background: [85]#141c21
 
