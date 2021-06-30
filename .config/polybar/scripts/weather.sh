@@ -3,12 +3,8 @@
 ONECALL="https://api.openweathermap.org/data/2.5/onecall"
 
 # source OW_KEY, LAT, LON, and UNITS
-#. "$(dirname "$0")/weather.config"
+source "$(dirname "$0")/weather.config"
 # TOTO actually source these variables
-OW_KEY="##########"
-LAT="33"
-LON="-117"
-UNITS="imperial"
 
 data=$(curl -sf "${ONECALL}?lat=${LAT}&lon=${LON}&units=${UNITS}&appid=${OW_KEY}")
 temp=$(echo "$data" | jq -r .current.temp)
